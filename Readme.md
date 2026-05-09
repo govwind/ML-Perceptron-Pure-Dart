@@ -10,6 +10,8 @@ The underlying idea of the perceptron originated in a 1943 paper by [Warren McCu
 A perceptron can linearly separate groups of points based on inputs.
 Depending on the number of inputs, the decision boundary(boundary separating the two classes) takes the form of a line (2d), a plane (3d), or a hyperplane (>3d).
 
+<img src="https://raw.githubusercontent.com/govwind/ML-Perceptron-Pure-Dart/main/graph.png" width="550" style="transform: rotate(-2deg);">
+
 ### Training a perceptron
 
 Training is controlled by 2 **hyperparameters** (not to be confused with parameters such as weights and biases):
@@ -19,6 +21,7 @@ Training is controlled by 2 **hyperparameters** (not to be confused with paramet
 
 
 ### What happens in a single training pass?
+<img src="https://raw.githubusercontent.com/govwind/ML-Perceptron-Pure-Dart/main/perceptron.png" width="550">
 
 1. The perceptron computes a weighted sum of inputs plus a bias, then passes it through an activation function:
 
